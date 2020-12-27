@@ -1,64 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>极客导航-很有范的导航站</title>
-    <link rel="shortcut icon" href="favcion.ico" />
-    <link rel="stylesheet" href=" css/iconfont.css">
-    <link rel="stylesheet" href="../plug-in/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-	<!-- MDUI CSS -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
-  integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw"
-  crossorigin="anonymous"
-/>
-
-<!-- MDUI JavaScript -->
-<script
-  src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
-  integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
-  crossorigin="anonymous"
-></script>
-	
-	
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>网址导航|密语</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/soxft/cdn@master/mdui/css/mdui.min.css">
+<script src="https://cdn.jsdelivr.net/gh/soxft/cdn@master/mdui/js/mdui.min.js"></script>
+<link rel="stylesheet" href="css/iconfont.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
+<header class="mdui-appbar mdui-appbar-fixed">
+<body background="https://api.lo-li.art/kesuxingjiyi/" class="mdui-drawer-body-left mdui-appbar-with-toolbar">
+<div class="mdui-toolbar  mdui-color-themes">
 
-<body>
-    <div class="container" id="container">
-        <aside class="left-bar" id="leftBar">
-            <div class="title">
-                <p>43848.com简单博客</p>
-            </div>
-            <nav class="nav">
-                <div class="item active"><a href=""><i class="iconfont icon-daohang2"></i>极客导航</a><i class="line"></i></div>
-                <ul class="nav-item" id="navItem">
-                    <li><a href="#bbs" class="active"><i class="iconfont icon-shequ"></i>开发社区</a></li>
-                </ul>
-                
-            </nav>
-        </aside>
-        <section class="main">
-            <div id="mainContent">
-                <!-- 手机端菜单 -->
-                <div id="menu-box">
-                   <div id="menu">
-                       <input type="checkbox" id="menu-form">
-                       <label for="menu-form" class="menu-spin">
-                        <div class="line diagonal line-1"></div>
-                        <div class="line horizontal"></div>
-                        <div class="line diagonal line-2"></div>
-                      </label>
-                    </div>
-                </div>
+<span class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: '#main-drawer'}">
+<i class="mdui-icon material-icons">menu</i>
+</span>
+
+<a href="" class="mdui-typo-title">网址导航</a>
+</header>
+<div class="mdui-drawer" id="main-drawer">
+<div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 68px;">
+<div class="mdui-list">
+<a href="/" class="mdui-list-item">
+<i class="mdui-list-item-icon mdui-icon material-icons">filter_none</i>
+&emsp;主页
+</a>
+<a href="./help.php" class="mdui-list-item">
+<i class="mdui-list-item-icon mdui-icon material-icons">help_outline</i>
+&emsp;帮助
+</a>
+<a href="./admin" class="mdui-list-item">
+<i class="mdui-list-item-icon mdui-icon material-icons">person_outline</i>
+&emsp;后台
+</a>
+</div>
+<a href="./about.php" class="mdui-list-item">
+<i class="mdui-list-item-icon mdui-icon material-icons">info_outline</i>
+&emsp;关于
+</a>
+<div class="mdui-collapse-item ">
+<div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+<i class="mdui-list-item-icon mdui-icon material-icons">&#xe80d;</i>
+&emsp;友链
+<i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+</div>
+<div class="mdui-collapse-item-body mdui-list">
+<a href="//blog.xsot.cn" class="mdui-list-item mdui-ripple ">星辰日记</a>
+</div>
+<div class="mdui-collapse-item-body mdui-list">
+<a href="//love.xsot.cn" class="mdui-list-item mdui-ripple ">星辰表白墙</a>
+</div>
+</div>
+</div>
+</div>
+</div><br />
+
+<section class="main">
                 <!-- 开发社区 -->
                 <div class="box">
                     <a href="#" name="bbs"></a>
                     <div class="sub-category">
-                        <div><i class="iconfont icon-shequ"></i>开发社区</div>
+                        <div><i class="iconfont"></i>开发社区</div>
                     </div>
                     <div>
 					<a target="_blank" href="http://www.43848.com/">
@@ -203,7 +207,6 @@
                         </div>
                     </div>
                 </footer>
-                <div id="fixedBar"><svg class="Zi Zi--BackToTop" title="回到顶部" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M16.036 19.59a1 1 0 0 1-.997.995H9.032a.996.996 0 0 1-.997-.996v-7.005H5.03c-1.1 0-1.36-.633-.578-1.416L11.33 4.29a1.003 1.003 0 0 1 1.412 0l6.878 6.88c.782.78.523 1.415-.58 1.415h-3.004v7.005z"></path></svg></div>
         </section>
         <script src="js/jquery.js"></script>
         <script>
@@ -269,4 +272,6 @@
         </script>
 </body>
 
-</html>
+
+
+
