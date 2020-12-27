@@ -13,12 +13,12 @@ a {
 
 body {
 	font-size: 12px;
-	color: #4d4d4d;
+	color: #000000;
 	font-family: Helvetica Neue,Microsoft Yahei
 }
 
 .container,.main,body {
-	background-size:100% 100%;
+
 }
 
 .iconfont {
@@ -152,12 +152,12 @@ body {
 .main #mainContent {
 	max-width: 1200px
 }
-
+/*网页的Box 背景*/
 .main .box {
 	overflow: hidden;
 	margin: 20px 30px;
-	background-color: rgba(255,255,255,0.5);
-	border-radius: 25px;
+	background-color: rgba(204,204,204,0.5);
+	border-radius: 15px;
 	padding-bottom: 20px
 }
 
@@ -165,7 +165,7 @@ body {
 	padding: 12px 0 0 2.1%;
 	font-size: 18px
 }
-
+/*网页的模块背景*/
 .main .box .item {
 	width: 20%;
 	border: 1px solid #e4ecf3;
@@ -186,7 +186,7 @@ body {
 }
 
 .main .box .item .no-logo {
-	color: #3273dc;
+	color: #696969;
 	font-weight: 700;
 	font-size: 14px
 }
@@ -196,7 +196,7 @@ body {
 	position: relative;
 	font-size: 14px;
 	font-weight: 700;
-	color: #3273dc;
+	color: #696969;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
